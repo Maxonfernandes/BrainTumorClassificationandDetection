@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Brain Tumors</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #121212;
+            color: #e0e0e0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            box-sizing: border-box;
+        }
+        header {
+            background-color: #1f1f1f;
+            color: #e0e0e0;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        header h1 {
+            margin: 0;
+            font-size: 28px;
+            font-weight: 700;
+        }
+        nav {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+        }
+        nav a {
+            color: #76c7c0;
+            text-decoration: none;
+            font-size: 16px;
+            margin-left: 20px;
+            transition: color 0.3s ease;
+        }
+        nav a:hover {
+            color: #5faaa3;
+        }
+        .container {
+            flex: 1;
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #1e1e1e;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        h2 {
+            color: #76c7c0;
+            margin-bottom: 20px;
+            font-size: 24px;
+            font-weight: 600;
+        }
+        .content {
+            text-align: left;
+            line-height: 1.8;
+        }
+        .content p {
+            margin-bottom: 20px;
+            font-size: 18px;
+        }
+        .tumor-types {
+            margin-top: 30px;
+        }
+        .tumor-types h3 {
+            color: #76c7c0;
+            margin-bottom: 10px;
+            font-size: 20px;
+            font-weight: 600;
+        }
+        .tumor-types ul {
+            list-style: none;
+            padding: 0;
+        }
+        .tumor-types li {
+            background-color: #333;
+            border: 1px solid #555;
+            border-radius: 5px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .tumor-types li h4 {
+            color: #76c7c0;
+            font-size: 22px;
+            font-weight: 700;
+            margin-bottom: 15px;
+        }
+        .tumor-types li p {
+            font-size: 16px;
+            line-height: 1.6;
+        }
+        .tumor-types li ul {
+            margin-top: 10px;
+            padding-left: 20px;
+        }
+        .tumor-types li ul li {
+            list-style-type: disc;
+        }
+        footer {
+            background-color: #1f1f1f;
+            color: #e0e0e0;
+            padding: 10px;
+            text-align: center;
+            box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.2);
+        }
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>About Brain Tumors</h1>
+        <nav>
+            <a href="/">Home</a>
+            <a href="/about">About</a>
+        </nav>
+    </header>
+    <div class="container">
+        <h2>Understanding Brain Tumors</h2>
+        <div class="content">
+            <p>Brain tumors can be life-threatening and require timely diagnosis and treatment. This platform aims to assist medical professionals in detecting and classifying brain tumors using advanced machine learning models.</p>
+        </div>
+        <div class="tumor-types">
+            <h3>Types of Brain Tumors:</h3>
+            <ul>
+                <li>
+                    <h4>Glioma</h4>
+                    <p><strong>Definition:</strong><br>Gliomas are a type of tumor that occurs in the brain and spinal cord. They arise from glial cells, which support and protect neurons in the central nervous system.</p>
+                    <p><strong>Types:</strong></p>
+                    <ul>
+                        <li><strong>Astrocytomas:</strong> Originate from astrocytes. They range from low-grade (slow-growing) to high-grade (fast-growing and aggressive) tumors, such as glioblastoma.</li>
+                        <li><strong>Oligodendrogliomas:</strong> Originate from oligodendrocytes. These are generally slower-growing but can become more aggressive.</li>
+                        <li><strong>Ependymomas:</strong> Originate from ependymal cells that line the ventricles of the brain and the central canal of the spinal cord. They can occur at any age.</li>
+                    </ul>
+                    <p><strong>Symptoms:</strong></p>
+                    <ul>
+                        <li>Headaches</li>
+                        <li>Seizures</li>
+                        <li>Nausea and vomiting</li>
+                        <li>Cognitive or personality changes</li>
+                        <li>Weakness or numbness in the limbs</li>
+                        <li>Speech difficulties</li>
+                        <li>Vision problems</li>
+                    </ul>
+                    <p><strong>Diagnosis:</strong></p>
+                    <ul>
+                        <li>MRI and CT scans</li>
+                        <li>Biopsy</li>
+                        <li>Neurological exams</li>
+                        <li>Genetic testing of the tumor</li>
+                    </ul>
+                    <p><strong>Treatment:</strong></p>
+                    <ul>
+                        <li>Surgery (to remove as much of the tumor as possible)</li>
+                        <li>Radiation therapy</li>
+                        <li>Chemotherapy</li>
+                        <li>Targeted therapy</li>
+                        <li>Clinical trials for new treatments</li>
+                    </ul>
+                    <p><strong>Prognosis:</strong><br>Varies widely depending on the type, location, and grade of the tumor. Glioblastomas have a poorer prognosis compared to lower-grade gliomas.</p>
+                </li>
+                <li>
+                    <h4>Meningioma</h4>
+                    <p><strong>Definition:</strong><br>Meningiomas are tumors that arise from the meninges, the membranous layers surrounding the brain and spinal cord. They are usually benign but can sometimes be malignant.</p>
+                    <p><strong>Symptoms:</strong></p>
+                    <ul>
+                        <li>Headaches</li>
+                        <li>Seizures</li>
+                        <li>Vision problems</li>
+                        <li>Hearing loss or ringing in the ears</li>
+                        <li>Memory loss</li>
+                        <li>Loss of smell</li>
+                        <li>Weakness in the limbs</li>
+                    </ul>
+                    <p><strong>Diagnosis:</strong></p>
+                    <ul>
+                        <li>MRI and CT scans</li>
+                        <li>Biopsy</li>
+                        <li>Neurological exams</li>
+                    </ul>
+                    <p><strong>Treatment:</strong></p>
+                    <ul>
+                        <li>Observation (for small, asymptomatic meningiomas)</li>
+                        <li>Surgery (to remove the tumor)</li>
+                        <li>Radiation therapy (including stereotactic radiosurgery)</li>
+                        <li>Chemotherapy (rarely used, typically for malignant meningiomas)</li>
+                    </ul>
+                    <p><strong>Prognosis:</strong><br>Generally good for benign meningiomas, with many patients living normal lives post-treatment. Malignant meningiomas have a higher risk of recurrence and require more aggressive treatment.</p>
+                </li>
+                <li>
+                    <h4>Pituitary Adenoma</h4>
+                    <p><strong>Definition:</strong><br>Pituitary tumors are abnormal growths that develop in the pituitary gland. Most pituitary tumors are benign adenomas.</p>
+                    <p><strong>Types:</strong></p>
+                    <ul>
+                        <li><strong>Functioning (secreting) tumors:</strong> Produce hormones in excess, leading to various clinical syndromes (e.g., prolactinomas, growth hormone-secreting adenomas).</li>
+                        <li><strong>Non-functioning (non-secreting) tumors:</strong> Do not produce hormones and may grow large before causing symptoms due to pressure on surrounding structures.</li>
+                    </ul>
+                    <p><strong>Symptoms:</strong></p>
+                    <ul>
+                        <li>Headaches</li>
+                        <li>Vision problems (due to pressure on the optic chiasm)</li>
+                        <li>Hormonal imbalances (e.g., Cushing's disease, acromegaly, hyperprolactinemia)</li>
+                        <li>Fatigue</li>
+                        <li>Unexplained weight changes</li>
+                        <li>Mood changes</li>
+                    </ul>
+                    <p><strong>Diagnosis:</strong></p>
+                    <ul>
+                        <li>MRI and CT scans</li>
+                        <li>Blood and urine tests (to check hormone levels)</li>
+                        <li>Vision tests</li>
+                        <li>Neurological exams</li>
+                    </ul>
+                    <p><strong>Treatment:</strong></p>
+                    <ul>
+                        <li>Observation (for small, asymptomatic tumors)</li>
+                        <li>Surgery (transsphenoidal surgery is common)</li>
+                        <li>Radiation therapy</li>
+                        <li>Medications to control hormone levels (e.g., dopamine agonists for prolactinomas, somatostatin analogs for growth hormone-secreting tumors)</li>
+                    </ul>
+                    <p><strong>Prognosis:</strong><br>Generally good for benign adenomas, especially if they are caught early and treated appropriately. Functioning tumors may require long-term hormone therapy.</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <footer>
+        <p>Medical Image Analysis.</p>
+    </footer>
+</body>
+</html>
